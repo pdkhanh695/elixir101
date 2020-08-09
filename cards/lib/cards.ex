@@ -7,6 +7,22 @@ defmodule Cards do
   @doc """
     Returns a list of strings resprenting a deck of playing cards 
   """
+  def create_toplist do 
+    values = ["Hanoi Univ", "Danang Univ", "Bachkhoa Univ"]
+    suits_location = ["Hanoi", "Hue", "HaiPhong", "Nghe An", "DaNang", "Hue", "Tp.HCM"]
+
+    # for value <- values do 
+    #   "fucking shit"
+    # end 
+
+    # for suit_location <- suits_location do 
+    #   "fucking suit location"
+    # end 
+    for value <- values, suit_location <- suits_location do 
+      "fucking man"
+    end
+  end 
+
   def create_deck do 
     values = ["Ace", "Two", "Three", "Four", "Five"]
     suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
